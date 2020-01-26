@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonti no Goolgle fonts */
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Shadows;
+  src: url(/Fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+html {
+  background-color: #212b38;
+}
+
+/*Global*/
+
+body {
+  font-family: Roboto-Regular;
+  font-size: 15px;
+  line-height: 1.5;
+
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 3mm;
+  background-color: #f4f4f4;
+  box-shadow: 0px 0px 10px #22d5b6;
+}
+/* headeer container*/
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container_2 {
+  width: 90%;
+  margin: auto;
+  padding-right: 50%;
+  overflow: hidden;
+  padding-left: 30px;
+}
+.button_1{
+    height: 38px;
+    background: #5AFFE7;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color: #ffffff;
+}
+
+/*Header*/
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header li {
+  display: inline;
+  padding: 0 30px 0 10px;
+}
+
+header a {
+  color: #0c0c0c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+header .highlight,
+header .current a {
+  color: #726eff;
+  font-weight: bold;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 70px;
+  border-bottom: #000000 1px solid;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  color: #414040;
+  font-family: Shadows;
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Showcase */
+
+#showcase {
+  background-image: url(/img/vegan-liftz-HTdSuTQ-OP0-unsplash.jpg);
+  min-height: 400px;
+  background-size: cover;
+  text-align: right;
+  color: #1f2019;
+  margin: 30px 30px 0px 30px;
+  background-position: 20px ;
+}
+
+/* Newslater*/
+
+#newslater {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #37465b;
+  color: #ffffff;
+  margin: 10px 30px 10px 30px;
+}
+
+#newslater h3 {
+  float: left;
+}
+
+#newslater form {
+  float: right;
+  margin-top: 5px;
+}
+
+#newslater input[type="email"] {
+  padding: 4px;
+  height: 38px;
+  width: 250px;
+}
+
+
+.img1{
+    overflow: hidden;
+    height: 500px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    transition: transform 0.3s ease-out;
+   
+}
+
+#atpakal{
+    padding-top: 500px;
+}
+
+footer{
+    padding-top: 5px
+}
