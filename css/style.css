@@ -1,12 +1,4 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Fonti no Goolgle fonts */
+/* Fonts from Goolgle fonts */
 
 @font-face {
   font-family: Roboto-Regular;
@@ -127,8 +119,7 @@ header #branding h1 {
   background-position: 0 20px 0 20px;
 }
 
-
-#showcase h2{
+#showcase h2 {
   padding-top: 20px;
   color: #f1eaea52;
   text-align: center;
