@@ -120,15 +120,19 @@ header #branding h1 {
 /* Showcase */
 
 #showcase {
-  background-image: url(/img/vegan-liftz-HTdSuTQ-OP0-unsplash.jpg);
-  min-height: 400px;
+  background-image: url(/img/rustic-vegan-pRKDJZWNUvY-unsplash.jpg);
+  min-height: 500px;
   background-size: cover;
-  text-align: right;
-  color: #1f2019;
   margin: 30px 30px 0px 30px;
-  background-position: ;
+  background-position: 0 20px 0 20px;
 }
 
+
+#showcase h2{
+  padding-top: 20px;
+  color: #f1eaea52;
+  text-align: center;
+}
 /* Newslater*/
 
 #newslater {
